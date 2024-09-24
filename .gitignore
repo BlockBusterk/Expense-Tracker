@@ -1,0 +1,46 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+
+# Ignore package manager directories
+node_modules/
+wwwroot/lib/
+bower_components/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore published outputs
+publish/
+*.publishsettings
+
+# Ignore Rider and JetBrains specific files
+.idea/
+*.sln.iml
+
+# Ignore NuGet packages
+*.nupkg
+# Uncomment if necessary for the solution
+# packages/
+# *.snupkg
+
+# Ignore database and user-secrets
+App_Data/
+appsettings.*.json
+secrets.json
+
+# Ignore JetBrains Rider project files
+.idea/
+*.sln.iml
